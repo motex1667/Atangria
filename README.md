@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="assets/atangria_logo.png">
+  <img src="assets/atangria_logo.png" width="50%" height="50%">
 </p>
 
 
