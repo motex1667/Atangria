@@ -9,7 +9,7 @@
 *.iml
 *.ipr
 
-include/SP/config.h
+include/ATA/config.h
 metaphor/
 build/
 obj/

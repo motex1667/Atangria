@@ -1,0 +1,10 @@
+^C:\PROJECTS\ATANGRIA\BUILDVS\CMAKEFILES\1F2ECEE63E1E08824310387AE576BE3D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/Atangria -BC:/Projects/Atangria/buildVS --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Projects/Atangria/buildVS/Atangria.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+#ifndef ATA_OPENGL_H
+#define ATA_OPENGL_H
+#if defined(ATA_OPENGL_CORE_PROFILE)
+#define ATA_OPENGL_VERSION_MAJOR 3
+#define ATA_OPENGL_VERSION_MINOR 2
+#else
+#define ATA_OPENGL_VERSION_MAJOR 1
+#define ATA_OPENGL_VERSION_MINOR 0
+#endif
+#endif

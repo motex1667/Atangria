@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\Atangria\buildVS\CMakeFiles\433b6b14e7c12373635897781eb386de\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\Atangria\buildVS\_deps\glfw-src\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Projects\Atangria\buildVS\_deps\glfw-src\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Projects\Atangria\buildVS\_deps\glfw-src\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Projects\Atangria\buildVS\_deps\glfw-build\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C4858D56-C676-3E81-9244-23ACC8D7B9D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8C27C7EF-277C-311B-B73F-BF48158CABA5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\Atangria\buildVS\_deps\glfw-subbuild\CMakeFiles\a1da01cdda8e5f464af65f131b8c865d\glfw-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\Atangria\buildVS\_deps\glfw-subbuild\CMakeFiles\a1da01cdda8e5f464af65f131b8c865d\glfw-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\Atangria\buildVS\_deps\glfw-subbuild\CMakeFiles\a1da01cdda8e5f464af65f131b8c865d\glfw-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\Atangria\buildVS\_deps\glfw-subbuild\CMakeFiles\a1da01cdda8e5f464af65f131b8c865d\glfw-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\Atangria\buildVS\_deps\glfw-subbuild\CMakeFiles\a1da01cdda8e5f464af65f131b8c865d\glfw-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\Atangria\buildVS\_deps\glfw-subbuild\CMakeFiles\a1da01cdda8e5f464af65f131b8c865d\glfw-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\Atangria\buildVS\_deps\glfw-subbuild\CMakeFiles\a1da01cdda8e5f464af65f131b8c865d\glfw-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\Atangria\buildVS\_deps\glfw-subbuild\CMakeFiles\a1da01cdda8e5f464af65f131b8c865d\glfw-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\Atangria\buildVS\_deps\glfw-subbuild\CMakeFiles\38e80da3da515f502a7bfdbd87b34d47\glfw-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\Atangria\buildVS\_deps\glfw-subbuild\CMakeFiles\c534712466110570892e0aa9c41e8f9b\glfw-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\Atangria\buildVS\_deps\glfw-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Projects\Atangria\buildVS\_deps\glfw-subbuild\CMakeFiles\glfw-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2E95F8A5-8641-38A8-A7FB-47A0D01AB324}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

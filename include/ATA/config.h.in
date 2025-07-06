@@ -1,16 +1,16 @@
 #ifndef ATA_CONFIG_H
 #define ATA_CONFIG_H
 
-#if defined(__cplusplus) && (__cplusplus < 201103L)
-#error C++11 or later required to compile API.
-#endif // __cplusplus
-
 #define ATA_VERSION_MAJOR @ATA_VERSION_MAJOR@
 #define ATA_VERSION_MINOR @ATA_VERSION_MINOR@
 #define ATA_VERSION_PATCH @ATA_VERSION_PATCH@
+#cmakedefine ATA_DEBUG_MODE
 
-#cmakedefine ATA_BUILD_PLATFORM_WINDOWS
-#cmakedefine ATA_BUILD_PLATFORM_UNIX
-#cmakedefine ATA_BUILD_PLATFORM_MACOSX
+#include "ATA/config/cpp.h"
+#include "ATA/config/opengl.h"
+#include "ATA/config/compiler.h"
+#include "ATA/config/platform.h"
+#include "ATA/config/debug.h"
+#include "ATA/types.h"
 
 #endif
