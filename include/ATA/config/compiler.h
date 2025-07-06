@@ -2,8 +2,8 @@
 #define ATA_COMPILER_H
 
 /* #undef ATA_COMPILER_CLANG */
-/* #undef ATA_COMPILER_GCC */
-#define ATA_COMPILER_MSVC
+#define ATA_COMPILER_GCC
+/* #undef ATA_COMPILER_MSVC */
 
 #ifdef __cplusplus
 	#if defined(_MSVC_LANG)
@@ -17,9 +17,9 @@
 #endif
 
 #if defined(ATA_COMPILER_GCC)
-/* #undef ATA_COMPILER_GCC_W64 */
+#define ATA_COMPILER_GCC_W64
 #elif defined(ATA_COMPILER_MSVC)
-#define ATA_MSVC_VERSION 1943
+#define ATA_MSVC_VERSION 
 #endif
 
 #if defined(__clang__)
