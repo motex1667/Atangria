@@ -215,8 +215,8 @@ namespace ata
 	
 	struct WindowConfig
     {
-        unsigned int width = 1;
-        unsigned int height = 1;
+        unsigned int width = 0;
+        unsigned int height = 0;
         const char* title = nullptr;
         class Monitor* monitor = nullptr;
         bool resizable = true;

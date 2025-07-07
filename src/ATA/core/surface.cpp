@@ -416,7 +416,7 @@ namespace ata
                         &workArea.y,
                         &workArea.w,
                         &workArea.h);
-            if(conf.width == (unsigned) -1 || conf.height == (unsigned) -1)
+            if(conf.width == 0 || conf.height == 0)
             {
                 m_window_size.x = workArea.w / 4;
                 m_window_size.y = workArea.h / 3;

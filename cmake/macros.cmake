@@ -19,11 +19,7 @@ function(ata_find_package)
         message(FATAL_ERROR "Unknown arguments when calling ata_import_library: ${THIS_UNPARSED_ARGUMENTS}")
     endif()
 
-    if (ATA_PLATFORM_IOS)
-        find_host_package(${target} REQUIRED)
-    else()
-        find_package(${target} REQUIRED)
-    endif()
+	find_package(${target} REQUIRED)
 
     add_library(${target} INTERFACE)
 
