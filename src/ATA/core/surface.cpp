@@ -1,5 +1,4 @@
 #include "ATA/config/glfw_3_3.h"
-#include "ATA/core/bitmapicon.h"
 #include "ATA/core/surface.h"
 #include "ATA/core/monitor.h"
 #include "ATA/core/log.h"
@@ -435,8 +434,6 @@ namespace ata
         	}
 
         	makeContextCurrent(true);
-
-        	setIcon(reinterpret_cast<const unsigned char*>(motexhead), 64, 71);
         	if(!conf.maximized)
         	{
             		glfwSetWindowPos(static_cast<GLFWwindow*>(m_context->m_handle), m_window_pos.x, m_window_pos.y);

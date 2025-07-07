@@ -9,7 +9,6 @@ set(ATA_SOURCES
 	${ATA_SOURCE_DIR}/core/string.cpp
 	${ATA_SOURCE_DIR}/core/surface.cpp
 	${ATA_SOURCE_DIR}/core/event.cpp
-	${ATA_SOURCE_DIR}/core/bitmapicon.cpp
 	${ATA_SOURCE_DIR}/core/log.cpp
 	${ATA_SOURCE_DIR}/core/glresource.cpp
 

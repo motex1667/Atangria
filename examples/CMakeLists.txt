@@ -1,3 +1,4 @@
+# Setup like GLFW examples.
 link_libraries(atangria)
 if(WIN32)
     set(ICON atangria.rc)
