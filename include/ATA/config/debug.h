@@ -10,27 +10,6 @@
 #define ATA_NO_DEBUG
 #endif
 
-/*
-#define ATA_WARNING(msg, ...) spWarning(msg, ##__VA_ARGS__);
-#define ATA_ASSERT(c, msg, ...) 			\
-	if(!(c))							\
-	{									\
-		ATA_WARNING(msg, ##__VA_ARGS__);	\
-		assert(0);						\
-	}
-
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-ATA_API void spWarning(const char* format, ...);
-
-#ifdef __cplusplus
-}
-#endif
-*/
-
-
 #define ATA_OUTPUT(stream, notif, msg, ...)          \
 do													\
 {                                                   \

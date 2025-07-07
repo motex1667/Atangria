@@ -1,3 +1,6 @@
+/*
+ * Approach taken from SMFL
+ */
 #ifndef ATA_LOG_H
 #define ATA_LOG_H
 #include "ATA/config.h"
