@@ -10,6 +10,8 @@
 *.ipr
 
 include/ATA/config.h
+include/ATA/config/compiler.h
+include/ATA/config/platform.h
 metaphor/
 build*/
 obj/

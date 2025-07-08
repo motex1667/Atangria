@@ -4,7 +4,7 @@
 #define ATA_PLATFORM_WINDOWS
 /* #undef ATA_PLATFORM_UNIX */
 /* #undef ATA_PLATFORM_MACOSX */
-/* #undef ATA_DYNAMIC_BUILD */
+#define ATA_DYNAMIC_BUILD
 
 #ifdef ATA_DYNAMIC_BUILD
     #if defined(ATA_PLATFORM_WINDOWS)
