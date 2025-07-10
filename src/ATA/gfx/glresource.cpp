@@ -1,4 +1,4 @@
-#include "ATA/core/glresource.h"
+#include "ATA/gfx/glresource.h"
 #include "ATA/core/context.h"
 
 namespace ata

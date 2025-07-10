@@ -2,7 +2,7 @@
 #define ATA_CONTEXT_H
 #include "ATA/config.h"
 #include "ATA/core/apidefs.h"
-#include "ATA/core/glresource.h"
+#include "ATA/gfx/glresource.h"
 #include "ATA/gfx.h"
 
 namespace ata

@@ -10,10 +10,9 @@ set(ATA_SOURCES
 	${ATA_SOURCE_DIR}/core/surface.cpp
 	${ATA_SOURCE_DIR}/core/event.cpp
 	${ATA_SOURCE_DIR}/core/log.cpp
-	${ATA_SOURCE_DIR}/core/glresource.cpp
 
+	${ATA_SOURCE_DIR}/gfx/glresource.cpp
         ${ATA_SOURCE_DIR}/gfx/mesh.cpp
-
 
         ${ATA_SOURCE_DIR}/run/thread.cpp
 	${ATA_SOURCE_DIR}/run/thread_impl.cpp
