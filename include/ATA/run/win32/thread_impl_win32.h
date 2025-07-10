@@ -8,8 +8,6 @@ namespace ata
 {
     namespace detail
     {
-        void sleepImplWin32(SPint64 duration);
-
         class ThreadImplWin32 final : public ThreadImpl
         {
             public:

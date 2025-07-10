@@ -40,7 +40,7 @@ namespace ata
 			
 			static void ensureExtensionsInit();
 			
-			static SPproc getProcAddress(const char* procName);
+			static ATA_proc getProcAddress(const char* procName);
 			
 			/*
 			 *	expected behavior:

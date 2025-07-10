@@ -4,7 +4,7 @@
 
 namespace ata
 {
-    void ATA_API sleep(SPint64 duration);
+    void ATA_API sleep(ATA_int64 duration);
 }
 
 #endif

@@ -4,49 +4,49 @@
 
 namespace ata
 {
-    enum class ClientApi : SPint
+    enum class ClientApi : ATA_int
     {
         None,
         OpenGl,
         OpenGles
     };
 
-    enum class ContextCreationApi : SPint
+    enum class ContextCreationApi : ATA_int
     {
         Native,
         Egl,
         OsMesa
     };
 
-    enum class ContextRobustness : SPint
+    enum class ContextRobustness : ATA_int
     {
         NoRobustness,
         NoResetNotification,
         LoseContextOnReset
     };
 
-    enum class ContextReleaseBehavior : SPint
+    enum class ContextReleaseBehavior : ATA_int
     {
         None,
         Any,
         Flush
     };
 
-    enum class OpenGlProfile : SPint
+    enum class OpenGlProfile : ATA_int
     {
         Any,
         Compat,
         Core
     };
 	
-    enum class CursorMode : SPint
+    enum class CursorMode : ATA_int
     {
         Normal,
         Disabled,
         Hidden
     };
 
-    enum class KeyCode : SPint
+    enum class KeyCode : ATA_int
     {
         None = 0,
         Space,
@@ -172,7 +172,7 @@ namespace ata
         MaxValue = Menu
     };
 
-    enum class ModifierKeyBit : SPint
+    enum class ModifierKeyBit : ATA_int
     {
 		None = 0,
         Shift,
@@ -183,7 +183,7 @@ namespace ata
         NumLock
     };
 
-    enum class MouseButton : SPint
+    enum class MouseButton : ATA_int
     {
 		None = 0,
         One,
@@ -200,14 +200,14 @@ namespace ata
         MaxValue
     };
 
-    enum class KeyState : SPint
+    enum class KeyState : ATA_int
     {
         Press = 0,
         Release,
         Repeat
     };
 
-    enum class MouseButtonState : SPint
+    enum class MouseButtonState : ATA_int
     {
         Press = 0,
         Release

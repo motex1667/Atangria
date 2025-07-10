@@ -8,10 +8,10 @@
 struct _SPtls
 {
 #if defined(ATA_PLATFORM_WINDOWS)
-    SPbool allocated;
+    ATA_bool allocated;
     DWORD index;
 #else
-    SPbool allocated;
+    ATA_bool allocated;
     pthread_key_t key;
 #endif
 };
@@ -21,10 +21,10 @@ struct _SPtls
 struct _SPmutex
 {
 #if defined(ATA_PLATFORM_WINDOWS)
-    SPbool allocated;
+    ATA_bool allocated;
     CRITICAL_SECTION section;
 #else
-    SPbool allocated;
+    ATA_bool allocated;
     pthread_mutex_t handle;
 #endif
 };

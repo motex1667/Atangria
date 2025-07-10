@@ -1,50 +1,46 @@
 #ifndef ATA_TYPES_H
 #define ATA_TYPES_H
-
 #define ATA_FALSE 0
 #define ATA_TRUE 1
 
 #ifdef __cplusplus
 extern "C" {
 #endif
-typedef float SPfloat;
-typedef double SPdouble;
+typedef float ATA_float;
+typedef double ATA_double;
 
-typedef char SPchar;
-typedef unsigned char SPuchar;
-typedef signed char SPint8;
-typedef unsigned char SPuint8;
-typedef SPint8 SPbyte;
-typedef SPuint8 SPubyte;
+typedef char ATA_char;
+typedef unsigned char ATA_uchar;
+typedef signed char ATA_int8;
+typedef unsigned char ATA_uint8;
+typedef ATA_int8 ATA_byte;
+typedef ATA_uint8 ATA_ubyte;
 
-typedef signed short SPint16;
-typedef unsigned short SPuint16;
-typedef SPint16 SPshort;
-typedef SPuint16 SPushort;
+typedef signed short ATA_int16;
+typedef unsigned short ATA_uint16;
+typedef ATA_int16 ATA_short;
+typedef ATA_uint16 ATA_ushort;
 
-#define ATA_FALSE 0
-#define ATA_TRUE 1
-typedef signed int SPint32;
-typedef unsigned int SPuint32;
-typedef SPint32 SPint;
-typedef SPuint32 SPuint;
-typedef SPint SPbool;
+typedef signed int ATA_int32;
+typedef unsigned int ATA_uint32;
+typedef ATA_int32 ATA_int;
+typedef ATA_uint32 ATA_uint;
+typedef ATA_int ATA_bool;
 
 #if defined(ATA_MSC_VER)
-typedef signed __int64 SPint64;
-typedef unsigned __int64 SPuint64;
+typedef signed __int64 ATA_int64;
+typedef unsigned __int64 ATA_uint64;
 #else
-typedef signed long long SPint64;
-typedef unsigned long long SPuint64;
+typedef signed long long ATA_int64;
+typedef unsigned long long ATA_uint64;
 #endif // defined
-typedef SPint64 SPlong;
-typedef SPuint64 SPulong;
+typedef ATA_int64 ATA_long;
+typedef ATA_uint64 ATA_ulong;
 
-typedef SPulong SPsize;
-typedef SPsize SPindex;
-typedef SPulong SPhash;
-typedef void (*SPproc)(void);
-typedef SPuint64 SPtime;
+typedef ATA_ulong ATA_size;
+typedef ATA_size ATA_index;
+typedef void (*ATA_proc)(void);
+typedef ATA_uint64 ATA_time;
 #ifdef __cplusplus
 }
 #endif

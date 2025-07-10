@@ -7,7 +7,6 @@ namespace ata
 {
     namespace detail
     {
-        void sleepImplPosix(SPint64 duration);
         class ThreadImplPosix final : public ThreadImpl
         {
             public:

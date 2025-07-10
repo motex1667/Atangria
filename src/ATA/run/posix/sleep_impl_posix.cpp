@@ -4,11 +4,11 @@
 
 namespace ata
 {
-    void sleep(SPint64 duration)
+    void sleep(ATA_int64 duration)
     {
         if(duration >= 0)
         {
-            SPuint64 usecs = (SPuint64) duration;
+            ATA_uint64 usecs = (ATA_uint64) duration;
             timespec ti;
             ti.tv_nsec = (usecs % 1000000) * 1000;
             ti.tv_sec = usecs / 1000000;

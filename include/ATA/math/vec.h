@@ -5,8 +5,8 @@
 
 namespace ata
 {
-    template<typename T, typename = typename std::enable_if<std::is_arithmetic<T>::value>::type>
-    struct vec2
+	template<typename T, typename = typename std::enable_if<std::is_arithmetic<T>::value>::type>
+    	struct vec2
 	{
 		ATA_CONSTEXPR vec2() :
 			x{0},
@@ -78,29 +78,29 @@ namespace ata
 
 	template<typename T>
 	float angle(const vec2<T>& v1, const vec2<T>& v2)
-    {
-        return std::acos(dot(v1, v2) / v1.length() * v2.length()) * 180.f / 3.141592654f;
-    }
+    	{
+        	return std::acos(dot(v1, v2) / v1.length() * v2.length()) * 180.f / 3.141592654f;
+    	}
 
-    template <typename T, typename U>
-    float angle(const vec2<T>& v1, const vec2<U>& v2)
-    {
-        return std::acos(dot(v1, v2) / v1.length() * v2.length()) * 180.f / 3.141592654f;
-    }
+    	template <typename T, typename U>
+    	float angle(const vec2<T>& v1, const vec2<U>& v2)
+    	{
+        	return std::acos(dot(v1, v2) / v1.length() * v2.length()) * 180.f / 3.141592654f;
+    	}
 
-    template <typename T>
-    float angle(const vec2<T>& v)
-    {
-        return fmod(std::atan2(v.y, v.x) * 180.f / (3.141592654f) + 360.f, 360.f);
-    }
+    	template <typename T>
+    	float angle(const vec2<T>& v)
+    	{
+        	return fmod(std::atan2(v.y, v.x) * 180.f / (3.141592654f) + 360.f, 360.f);
+    	}
 
-    template<typename T>
-    float distance(const vec2<T>& v1, const vec2<T>& v2)
-    {
-        return std::sqrt((v2.x - v1.x) * (v2.x - v1.x) + (v2.y - v1.y) * (v2.y - v1.y));
-    }
+    	template<typename T>
+    	float distance(const vec2<T>& v1, const vec2<T>& v2)
+    	{
+        	return std::sqrt((v2.x - v1.x) * (v2.x - v1.x) + (v2.y - v1.y) * (v2.y - v1.y));
+    	}
 
-    template<typename T>
+    	template<typename T>
 	ATA_CONSTEXPR vec2<T> operator-(const vec2<T>& v);
 
 	template<typename T>
@@ -193,13 +193,13 @@ namespace ata
 		
 		float length() const
 		{
-            return std::sqrt(x * x + y * y + z * z);
+            		return std::sqrt(x * x + y * y + z * z);
 		}
 
 		vec3 normalized() const
 		{
-		    float len = length();
-            return vec3{x / len, y / len, z / len};
+		    	float len = length();
+            		return vec3{x / len, y / len, z / len};
 		}
 		
 		T x;

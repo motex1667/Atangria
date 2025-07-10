@@ -158,9 +158,9 @@ namespace ata
 			
             static void setTime(double time);
 			
-            static SPuint64 getTimerValue();
+            static ATA_uint64 getTimerValue();
 			
-            static SPuint64 getTimerFrequency();
+            static ATA_uint64 getTimerFrequency();
 
         private:
 		

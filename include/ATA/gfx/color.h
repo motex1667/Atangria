@@ -6,7 +6,7 @@ namespace ata
 {
 	struct ATA_API Color
 	{
-		Color(SPuint8 r = 255, SPuint8 g = 255, SPuint8 b = 255, SPuint8 a = 255) :
+		Color(ATA_uint8 r = 255, ATA_uint8 g = 255, ATA_uint8 b = 255, ATA_uint8 a = 255) :
 			r(r),
 			g(g),
 			b(b),
@@ -14,10 +14,10 @@ namespace ata
 		{
 		}
 		
-		SPuint8 r;
-		SPuint8 g;
-		SPuint8 b;
-		SPuint8 a;
+		ATA_uint8 r;
+		ATA_uint8 g;
+		ATA_uint8 b;
+		ATA_uint8 a;
 
 		const static Color Black;
         	const static Color White;

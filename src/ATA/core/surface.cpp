@@ -832,12 +832,12 @@ namespace ata
 		glfwSetTime(time);
 	}
 	
-    	SPuint64 Surface::getTimerValue()
+    	ATA_uint64 Surface::getTimerValue()
 	{
 		return glfwGetTimerValue();
 	}
 	
-    	SPuint64 Surface::getTimerFrequency()
+    	ATA_uint64 Surface::getTimerFrequency()
 	{
 		return glfwGetTimerFrequency();
 	}

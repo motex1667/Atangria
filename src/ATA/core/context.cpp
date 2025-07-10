@@ -269,9 +269,9 @@ namespace ata
         }
     }
 	
-	SPproc ContextManager::getProcAddress(const char* procName)
+	ATA_proc ContextManager::getProcAddress(const char* procName)
 	{
-		return reinterpret_cast<SPproc>(glfwGetProcAddress(procName));
+		return reinterpret_cast<ATA_proc>(glfwGetProcAddress(procName));
 	}
 	
     void* ContextManager::getSharedContext()

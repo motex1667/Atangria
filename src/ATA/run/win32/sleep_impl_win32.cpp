@@ -4,7 +4,7 @@
 
 namespace ata
 {
-    void sleep(SPint64 duration)
+    void sleep(ATA_int64 duration)
     {
         if(duration >= 0)
         {
